@@ -1,9 +1,11 @@
 import "./App.css";
-import StarRating from "./component/StarRating";
+import DropDownArrow from "./component/dropDownArrow/DropDownArrow";
+import StarRating from "./component/starRating/StarRating";
+
 function App() {
   return (
-    <div className="App" style={{ padding: "0px", margin: "0px" }}>
-      <StarRating />
+    <div className="App">
+      <DropDownArrow />
     </div>
   );
 }

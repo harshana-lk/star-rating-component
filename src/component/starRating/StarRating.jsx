@@ -4,7 +4,7 @@ import { Rate } from "antd";
 const StarRating = () => {
   return (
     <div>
-      <div style={{ display: "block" }}>
+      <div>
         <Rate defaultValue={3} allowHalf />
       </div>
       <div>
